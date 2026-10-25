@@ -1,0 +1,24 @@
+
+[
+  {
+    "className": "Mathematics",
+    "day": "Monday",
+    "room": "Room 101",
+    "time": "09:00-10:00",
+    "teacher": "Mr. Smith"
+  },
+  {
+    "className": "Science",
+    "day": "Monday",
+    "room": "Lab 2",
+    "time": "10:15-11:15",
+    "teacher": "Ms. Johnson"
+  },
+  {
+    "className": "History",
+    "day": "Tuesday",
+    "room": "Room 205",
+    "time": "13:00-14:00",
+    "teacher": "Mr. Brown"
+  }
+]
