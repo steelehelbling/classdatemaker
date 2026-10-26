@@ -27,7 +27,7 @@ async function saveClasses(classes) {
 function isValidClass(data) {
   return (
     data &&
-    ["className", "day", "room", "time", "teacher"].every(
+    ["className", "day", "room", "time", "age", "teacher"].every(
       (field) =>
         typeof data[field] === "string" &&
         data[field].trim().length > 0
@@ -91,6 +91,7 @@ app.post("/api/classes", async (req, res, next) => {
       day: req.body.day.trim(),
       room: req.body.room.trim(),
       time: req.body.time.trim(),
+      age: req.body.age.trim(),
       teacher: req.body.teacher.trim()
     };
 
@@ -129,6 +130,7 @@ app.put("/api/classes/:id", async (req, res, next) => {
       day: req.body.day.trim(),
       room: req.body.room.trim(),
       time: req.body.time.trim(),
+      age: req.body.time.trim(),
       teacher: req.body.teacher.trim()
     };
 

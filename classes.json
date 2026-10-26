@@ -5,6 +5,7 @@
     "day": "Monday",
     "room": "204",
     "time": "10:30",
+    "age": "7-10",
     "teacher": "Ms. Smith"
   },
   {
@@ -13,6 +14,7 @@
     "day": "Tuesday",
     "room": "105",
     "time": "13:00",
+    "age": "7-10",
     "teacher": "Mr. Jones"
   }
 ]
