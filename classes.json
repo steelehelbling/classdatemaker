@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "className": "Biology",
+    "day": "Monday",
+    "room": "204",
+    "time": "10:30",
+    "teacher": "Ms. Smith"
+  },
+  {
+    "id": 2,
+    "className": "Mathematics",
+    "day": "Tuesday",
+    "room": "105",
+    "time": "13:00",
+    "teacher": "Mr. Jones"
+  }
+]
