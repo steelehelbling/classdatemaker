@@ -4,7 +4,7 @@ const path = require("node:path");
 const cors = require("cors");
 
 app.use(cors());
-app.use(express.json());
+
 
 
 const app = express();
