@@ -3,7 +3,7 @@ const fs = require("node:fs/promises");
 const path = require("node:path");
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 const DATA_FILE = path.join(__dirname, "classes.json");
 
@@ -174,6 +174,7 @@ app.use((error, req, res, next) => {
   });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
-});
+
+ app.listen(PORT, () => {
+   console.log(`Server running at http://localhost:${PORT}`);
+ });
