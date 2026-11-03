@@ -3,14 +3,12 @@ const fs = require("node:fs/promises");
 const path = require("node:path");
 const cors = require("cors");
 
-app.use(cors());
-
-
 
 const app = express();
 const PORT = process.env.PORT || 8080;
-
 const DATA_FILE = path.join(__dirname, "classes.json");
+
+app.use(cors());
 
 app.use(express.json());
 
@@ -135,7 +133,7 @@ app.put("/api/classes/:id", async (req, res, next) => {
       day: req.body.day.trim(),
       room: req.body.room.trim(),
       time: req.body.time.trim(),
-      age: req.body.time.trim(),
+      age: req.body.age.trim(),
       teacher: req.body.teacher.trim()
     };
 
